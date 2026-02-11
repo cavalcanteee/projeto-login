@@ -1,0 +1,64 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+:root {
+    --lilas: #5f2c82;
+    --verde: #49a09d;
+}
+
+body, html {
+    background-color: var(--lilas);
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+}
+
+section > div#imagem {
+    background: var(--lilas) url(../img/metal.jpg) left bottom / cover no-repeat;
+    height: 200px;
+}
+
+section > div#login {
+    padding: 10px;
+}
+
+section > div#login > h1 {
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 5px;
+}
+
+section > div#login > h2 {
+    font-size: 17px;
+    text-align: left;
+}
+
+section > div#login > p {
+    text-align: justify;
+} 
+
+section > form {
+    padding: 10px;
+}
