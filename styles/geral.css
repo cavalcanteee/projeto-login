@@ -62,10 +62,7 @@ section#login > div#formulario > p {
     font-size: 17px;
     text-align: justify;
 }
-div#entrada {
-    background-color: red;
-    box-sizing: border-box;
-}
+
 div#entrada > input {
     background-color: #94cfcd;
     font-size: 1em;
