@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Login</title>
-    <link rel="stylesheet" href="styles/geral.css" media="all">
+    <title>Projeto-login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/media.css">
+
 </head>
 <body>
-    <section>
-        <div id="imagem"></div>
-        <div id="login">
-            <h1>Login</h1>
-            <h2>Seja bem-vindo(a) novamente.</h2>
-            <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        </div>
-        <form action="cadastro.html">
-            <label for="iemail"></label>
-            <input type="email" name="email" id="iemail">
-            <input type="password" name="senha" id="isenha">
+    
+        <section id="login">
+            <div id="imagem"></div>
+        
+            <div id="formulario">
+                <h1>Login</h1>
+                <h2>Seja bem-vindo(a) novamente.</h2>
+                <p>Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            </div>
+            <div id="entrada">
+                <i class="material-icons">person</i>
+                <input type="email" name="email" id="idemail">
+                <i class="material-icons">vpn_key</i>
+                <input type="password" name="senha" id="idsenha">
+            </div>
 
-            <input type="submit" value="Entrar">
-            <input type="button" value="Esqueci a senha">
-        </form>
-    </section>
+                <input type="submit" value="Entrar">
+                <input type="button" value="Esqueci a senha">
+            
+        </section>
+
 </body>
 </html>
